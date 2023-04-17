@@ -1,0 +1,148 @@
+*{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+body{
+    border: 15px groove green;
+    height: 2050px;
+    background-image: url("./images\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.boxs{
+    display: flex;
+}
+ .box1, .box2,  .box3{
+    border: 5px solid red;
+    color: white;
+}
+.box1{
+    font-size: 2rem;
+    margin:50px -170px 0 20px;
+    height: 114px;
+    width: 700px;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: black;
+    margin-top: 50px;
+}
+.box2{
+    height: 40px;
+    width: 600px;
+    margin-top: 70px;
+    font-size: 2rem;
+    border-radius: 50px;
+    background-color: black;
+    padding: 40px 60px 0 60px;
+    margin-right: -188px;
+    margin-left: -160px;
+}
+.box3{
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-left: 200px;
+    border-radius: 30px;
+    padding: 28px 80px 0 40px;
+    background-color: black;
+    margin-bottom: 190px;
+}
+.midsection{
+    display: flex;
+}
+.form{
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    margin-left: 130px;
+    margin-top: -70px;
+    margin-right: 18px;
+    border: 5px dashed red;
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+}
+.form input::placeholder{
+    text-align: center;
+}
+.form button{
+    padding: 4px;
+    border-radius: 5px;
+}
+.form .reset{
+    padding: 5px;
+    border-radius: 3px;
+}
+div .form label{
+    color: red;
+}
+.form h1{
+    color: red;
+    padding: 10px 20px 10px 20px;
+}
+ .circle{
+    background-color: teal;
+    padding-top: 130px;
+    box-sizing: border-box;
+    height: 500px;
+    margin-top: 70px;
+    margin-left: 60px;
+    width: 500px;
+    border: 5px solid gray;
+    border-radius: 50%;
+}
+ .circle h2{
+    padding: 20px;
+    text-align: center;
+}
+.menu h1{
+    text-align: center;
+    margin: 40px 460px;
+    width: 400px;
+    border-radius: 30px;
+    padding: 15px 40px 15px 40px;
+    display: inline-block;
+    border: 5px solid red;
+    color: white;
+    background: black;
+}
+.hr{
+    margin-top: -30px;
+}
+.menu-box{
+    border: 5px solid green;
+    background-color: aqua;
+    height: 290px;
+    border-radius: 30px;
+    width: 350px;
+}
+.foodbox{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 80px;
+    justify-content: space-around;
+}
+.foodbox .line{
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+.foodbox h1{
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(6, 6, 255);
+    margin-top: 24px;
+    font-size: 3.2rem;
+}
+.foodbox ul{
+    padding-left: 30px;
+    font-size: 1.1rem;
+    color: rgb(0, 0, 117);
+}
+.foodbox ul li{
+    text-align: center;
+}
+.last-box{
+    height: 350px;
+}
